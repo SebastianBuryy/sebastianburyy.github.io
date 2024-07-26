@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { cropped_image } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -85,7 +86,7 @@ const About = () => {
           </p>
         </motion.div>
         <motion.div variants={fadeIn("", "", 0.1, 1)} className='md:mt-[-80px] mt-10 md:ml-8 flex-shrink-0'>
-          <img src="cropped_image.png" alt="Sebastian Bury" className="w-80 h-80 rounded-full mx-auto md:mx-0 border-4 border-indigo-600 shadow-nav" />
+          <img src={cropped_image} alt="Sebastian Bury" className="w-80 h-80 rounded-full mx-auto md:mx-0 border-4 border-indigo-600 shadow-nav" />
         </motion.div>
       </div>
 

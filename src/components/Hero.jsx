@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { Html } from '@react-three/drei';
 import { ComputersCanvas } from './canvas';
 import { Typewriter } from 'react-simple-typewriter';
+import { linkedinv2 } from '../assets';
+import { githubv2 } from '../assets';
 
 const Hero = () => {
   return (
@@ -35,14 +37,14 @@ const Hero = () => {
           <div className="flex gap-4 mt-3">
           <a href="https://www.linkedin.com/in/sebastianbury" target="_blank" rel="noopener noreferrer">
               <img
-                src="src/assets/linkedinv2.png"
+                src={linkedinv2}
                 alt="Linkedin-Profile-SebastianBury"
                 className="w-[50px] h-[50px] xs:w-[80px] xs:h-[80px] social-color icon-glow cursor-pointer"
               />
           </a>
           <a href="https://github.com/SebastianBuryy" target="_blank" rel="noopener noreferrer">
               <img
-                src="src/assets/githubv2.png"
+                src={githubv2}
                 alt="Github-Profile-SebastianBury"
                 className="w-[60px] h-[60px] xs:w-[90px] xs:h-[90px] -mt-1 social-color icon-glow cursor-pointer"
               />

@@ -38,6 +38,10 @@ import algarch from "./algarch.png";
 import insuranceplatform from "./insuranceplatform.png";
 import pwebsite from "./pwebsite.png";
 
+import cropped_image from "./cropped_image.png";
+import linkedinv2 from "./linkedinv2.png";
+import githubv2 from "./githubv2.png";
+
 export {
   logo,
   backend,
@@ -75,4 +79,7 @@ export {
   algarch,
   insuranceplatform,
   pwebsite,
+  cropped_image,
+  linkedinv2,
+  githubv2,
 };

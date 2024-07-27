@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="z-20">
           <div className={`${styles.heroAltText}`}>
           <Typewriter
-            words={['Hey, I\'m Seb.']}
+            words={['Hey, I\'m Seb']}
             loop={5}
             cursor
             cursorColor='#915eff'
@@ -32,7 +32,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Seb</span>
           </h1> */}
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
-            A Software Engineer with a passion <br className="sm:block hidden"/> for frontend development.
+            a software engineer with a passion <br className="sm:block hidden"/> for front-end development.
           </p>
           <div className="flex gap-4 mt-3">
           <a href="https://www.linkedin.com/in/sebastianbury" target="_blank" rel="noopener noreferrer">

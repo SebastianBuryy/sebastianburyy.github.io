@@ -51,6 +51,10 @@ const BallCanvas = ({ icon }) => {
     };
   }, []);
 
+  if (isMobiled) {
+    return null; // Do not render
+  }
+
   return (
     <Canvas
       frameloop='always'
